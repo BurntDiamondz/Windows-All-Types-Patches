@@ -1,0 +1,48 @@
+      {
+  ;
+% command.line.type.critical.normal
+    ;
+    % command.line.cmd.prompt
+    command_prompt.exe -cmd console
+    command_prompt.dll -command_prompt.exe -cmd console
+    commands.com -command_prompt.exe -cmd console
+      ;
+      }
+      {
+      ;
+        ;
+        command.strip.cmd -all
+        
+        {}
+          ;
+          command.strip.help -all
+          
+          {}
+            ;
+            command.strip.cmd
+            
+            {}
+              ;
+              command.strip.help
+              
+              {}
+                ;
+                commands.com -filetype unknown
+                :type.new.command_prompt.exe -component:
+                
+                ;
+                  
+                  ;
+                  
+                    ;
+                    
+      }
+      :hosts:
+      {
+      ##:hosts:
+      #
+      game.all.default:9021.21.2121.43:
+      #
+      ##:hosts:
+      }
+                                          {command_prompt.exe -newtype}
